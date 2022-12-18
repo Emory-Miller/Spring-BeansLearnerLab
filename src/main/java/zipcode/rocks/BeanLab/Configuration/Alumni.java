@@ -16,7 +16,8 @@ public class Alumni {
     Students previousStudents;// = new StudentConfig().previousStudents();
 
     @Autowired
-    Instructors instructors = new InstructorsConfig().instructors();
+    @Qualifier("instructors")
+    Instructors instructors;// = new InstructorsConfig().instructors();
 
     public Alumni() {
 

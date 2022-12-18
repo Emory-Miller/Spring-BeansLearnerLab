@@ -10,7 +10,7 @@ import java.util.function.Consumer;
 
 public abstract class People<PersonType extends Person> implements Iterable<PersonType> {
 
-    List<PersonType> personList;
+    private final List<PersonType> personList;
 
     public People (List<PersonType> personList){
         this.personList = personList;
