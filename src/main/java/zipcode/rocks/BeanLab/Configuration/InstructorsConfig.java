@@ -34,4 +34,5 @@ public class InstructorsConfig {
         tcUkInstructors.add(new Instructor(3, "Scrooge"));
         return tcUkInstructors;
     }
+
 }
